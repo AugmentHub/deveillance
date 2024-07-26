@@ -83,7 +83,7 @@ void InitSigGen(void) {
   digitalWrite(SG_fsyncPin, HIGH);
   digitalWrite(SG_CLK, HIGH);
   reset();
-  set_frequency(FREQUENCY, wTriangle);
+  set_frequency(FREQUENCY, wSine);
 }
 
 // Main functions 
