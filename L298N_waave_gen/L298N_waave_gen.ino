@@ -11,13 +11,13 @@ void setup() {
 void loop() {
   // Generate approx. 25 kHz square wave
   for (;;) {
-    // Toggle IN1 and IN2
+    // Toggle IN1 and IN2 
     PORTC |= 0b00000001;  // Set A0 HIGH, A1 LOW
     PORTC &= 0b11111101;
-    delayMicroseconds(21); // 20 or 21 microseconds delay for half the period (high time)
+    delayMicroseconds(20); // 20 or 21 microseconds delay for half the period (high time)
 
     PORTC |= 0b00000010;  // Set A1 HIGH, A0 LOW
     PORTC &= 0b11111110;
-    delayMicroseconds(21); // delay for lowtime
+    delayMicroseconds(20); // delay for lowtime
   }
 }
