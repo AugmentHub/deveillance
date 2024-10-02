@@ -1,7 +1,23 @@
-// DEFINING PINS
+#include <math.h> // including math so I can use functions, parameters, etc. from there in the code.
+#include <avr/sleep.h>
+#include <avr/power.h>
+
+// DEFINING VARIABLES
+
+#define SAMPLE_SIZE 255
 
 const int IN1 = A0;  // IN1 => A0
 const int IN2 = A1;  // IN2 => A1
+
+uint8_t sineTable[SAMPLE_SIZE];
+
+// Creating sine table 
+void create_sine(){
+    for (int i = 0; i < SAMPLE_SIZE){
+        float angle = (2.0 * PI *i)/ SAMPLE_SIZE; 
+    }
+
+}
 
 void setup() {
   pinMode(IN1, OUTPUT); // Output for waves
@@ -21,4 +37,3 @@ void loop() {
     delayMicroseconds(20); // delay for lowtime
   }
 }
-  
