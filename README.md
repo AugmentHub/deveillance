@@ -24,6 +24,7 @@ And because of this, your voice will be overridden. It cannot be filtered out.
 
 **Putting Things Together**
 Here is how we are currently wiring things together (though the topology is very likely to change) :
+![alt text](https://github.com/AugmentHub/deveillance/blob/main/Circuit_diagram.jpeg)
 
 
 
