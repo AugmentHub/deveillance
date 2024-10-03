@@ -12,7 +12,6 @@
 
 #define OUTPUT_WAVE(pointer, d)  PORTC = pointer[d*N_PORTS + 0]
 
-#define N_BUTTONS 6
 //half a second
 #define STEP_SIZE 1
 #define BUTTON_SENS 2500 
