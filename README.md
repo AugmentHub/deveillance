@@ -17,3 +17,13 @@ We are explaining how the Physics behind this works and then also how to make it
 In a very simple way of explaining, without needing much physics background: Microphones have diaphragms. When sound hits that diaphragm, it vibrates it, and that movement creates electrical signals (in an abstract way of explaining it). 
 Now, sound has different frequencies. We can hear a certain range of frequencies (20Hz to 20kHz) but below or higher than that humans can generally not hear. If you are close enough to our hearing frequency, however, the diaphragm of the microphone can sometimes pick it up. 
 And because of this, your voice will be overridden. It cannot be filtered out. 
+
+### Make It Yourself
+- [Transducers](https://en.wikipedia.org/wiki/Transducer): For the bigger version, we are currently using the [2223-CUSA-T601-150-2400-TH-ND](https://www.digikey.com/en/products/detail/same-sky-formerly-cui-devices/CUSA-T601-150-2400-TH/16579211). 
+- Arduino Nano (or any other Arduino / microcontroller device)
+
+**Putting Things Together**
+Here is how we are currently wiring things together (though the topology is very likely to change) :
+
+
+
