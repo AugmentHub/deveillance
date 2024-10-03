@@ -14,10 +14,10 @@ void loop() {
     // Toggle IN1 and IN2 
     PORTC |= 0b00000001;  // Set A0 HIGH, A1 LOW
     PORTC &= 0b11111101;
-    delayMicroseconds(20); // 20 or 21 microseconds delay for half the period (high time)
+    delayMicroseconds(28); // 20 or 21 microseconds delay for half the period (high time)
 
     PORTC |= 0b00000010;  // Set A1 HIGH, A0 LOW
     PORTC &= 0b11111110;
-    delayMicroseconds(20); // delay for lowtime
+    delayMicroseconds(12); // delay for lowtime
   }
 }
