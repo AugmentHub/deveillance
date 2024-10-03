@@ -7,3 +7,6 @@ There is still a lot of work to be done and we need more engineers tackling the 
 
 ## Audio
 Audio Jammers have existed for a while now but has been increasingly difficult to find affordable ones or even good, structured tutorials of how to make your own. This is how we built an audio jammer and how this works.
+
+We are using a motor driver - more specifically the H-Bridge - L298N in order to generate a square wave signal. We formally tried using a signal generator with an amplifier but found it more difficult to get a non-noisy signal. 
+The generated square-wave signal is based on the input voltage, for which you can use a power supply for now but we will eventually add batteries that are high enough (to get a good power output, we are currently using the H-Bridge that go up to 30V and 2A) but when we make it more wearable and you want to use it on your shelf, you may want to use a DC-DC Converter, upping the voltage of a generic LiPo battery. 
