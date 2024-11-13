@@ -27,4 +27,11 @@ Here is how we are currently wiring things together (though the topology is very
 ![alt text](https://github.com/AugmentHub/deveillance/blob/main/Circuit_diagram.jpeg)
 
 
+### PCB Design 
+Within this directory you will also find a PCB design with the L298N chip on board, battery charging circuit and more included. 
+The data parts we are using are the following: 
 
+- TP4056: 1A Standalone Linear Li-Ion Battery Charger with Thermal Regulation. This is for charging our battery and is connected to a USB port. You can find the datasheet [here](https://dlnmh9ip6v2uc.cloudfront.net/datasheets/Prototyping/TP4056.pdf). 
+- DW01A: this is a battery protection IC. You can read more about it [here](https://hmsemi.com/downfile/dw01a.pdf)
+- XL6009: this is our boost converter IC, which has a wide bandwidth. Find more information [here](https://www.haoyuelectronics.com/Attachment/XL6009/XL6009-DC-DC-Converter-Datasheet.pdf).
+- L298N: this is our Hbridge to create our Ultrasonic wave.
