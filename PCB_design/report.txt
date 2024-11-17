@@ -1,0 +1,3 @@
+Info: Placement file: '/Users/aida/Desktop/deveillance/PCB_design/PCB_design-all-pos.csv'.
+Info: Component count: 41.
+Info: File generation successful.
