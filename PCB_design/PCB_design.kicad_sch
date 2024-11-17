@@ -3022,11 +3022,6 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 2838bc95-d81d-442d-a250-69dc77c1bb4e)
   )
-  (text "(kicad_pcb (version 20221018) (generator pcbnew)\n\n(layers\n  (0 \"F.Cu\" signal)\n  (31 \"B.Cu\" signal)\n  (32 \"B.Adhes\" user \"B.Adhesive\")\n  (33 \"F.Adhes\" user \"F.Adhesive\")\n  (34 \"B.Paste\" user)\n  (35 \"F.Paste\" user)\n  (36 \"B.SilkS\" user \"B.Silkscreen\")\n  (37 \"F.SilkS\" user \"F.Silkscreen\")\n  (38 \"B.Mask\" user)\n  (39 \"F.Mask\" user)\n  (40 \"Dwgs.User\" user \"User.Drawings\")\n  (41 \"Cmts.User\" user \"User.Comments\")\n  (42 \"Eco1.User\" user \"User.Eco1\")\n  (43 \"Eco2.User\" user \"User.Eco2\")\n  (44 \"Edge.Cuts\" user)\n  (45 \"Margin\" user)\n  (46 \"B.CrtYd\" user \"B.Courtyard\")\n  (47 \"F.CrtYd\" user \"F.Courtyard\")\n  (48 \"B.Fab\" user)\n  (49 \"F.Fab\" user)\n  (50 \"User.1\" user)\n  (51 \"User.2\" user)\n  (52 \"User.3\" user)\n  (53 \"User.4\" user)\n  (54 \"User.5\" user)\n  (55 \"User.6\" user)\n  (56 \"User.7\" user)\n  (57 \"User.8\" user)\n  (58 \"User.9\" user)\n)\n\n(net 0 \"\")\n(net 1 \"+5V Arduino\")\n(net 2 \"GND_Arduino1\")\n(net 3 \"A0\")\n(net 4 \"A1\")\n(net 5 \"A2\")\n(net 6 \"A3\")\n(net 7 \"Bat+\")\n(net 8 \"Boost_Out\")\n(net 9 \"Net-(U4-VCC)\")\n(net 10 \"Batt-\")\n(net 11 \"OUT4\")\n(net 12 \"OUT3\")\n(net 13 \"OUT2\")\n(net 14 \"OUT1\")\n(net 15 \"Net-(D10-K)\")\n(net 16 \"Net-(D10-A)\")\n(net 17 \"Net-(D11-K)\")\n(net 18 \"Net-(D17-A)\")\n(net 19 \"unconnected-(J1-D--Pad2)\")\n(net 20 \"unconnected-(J1-D+-Pad3)\")\n(net 21 \"unconnected-(J1-ID-Pad4)\")\n(net 22 \"unconnected-(J1-Shield-Pad6)\")\n(net 23 \"Net-(D9-B)\")\n(net 24 \"Net-(Q1-Pad1)\")\n(net 25 \"Net-(U4-OD)\")\n(net 26 \"Net-(U4-OC)\")\n(net 27 \"Net-(VR1-FB)\")\n(net 28 \"Hold\")\n(net 29 \"Charge\")\n(net 30 \"Net-(U4-CS)\")\n(net 31 \"Net-(U3-PROG)\")\n(net 32 \"unconnected-(U4-TD-Pad4)\")\n\n\n  (via (at 0 0) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (free) (net 2) (tstamp 518130d3-3919-4b63-954a-6cdfc1c51b68))\n\n)"
-    (at 223.012 86.36 0)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 68e1dc0e-1787-4832-9b7c-2c05366f41c7)
-  )
   (text "L298N" (at 110.49 110.49 0)
     (effects (font (size 3 3)) (justify left bottom))
     (uuid 6c4ef69c-5a97-4b19-b5f7-c015a82f2e0e)
