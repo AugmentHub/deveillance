@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Cap")(type "KiCad")(uri "${KIPRJMOD}/Cap.pretty")(options "")(descr ""))
+)
